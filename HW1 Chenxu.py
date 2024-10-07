@@ -1,6 +1,8 @@
 import numpy as np
 
+## Problem 1 
 
+## Newton method
 def f(x):
     return x * np.sin(3 * x) - np.exp(x)
 def f_prime(x):
@@ -16,7 +18,7 @@ for j in range(1000):
 A1 = x
 
 
-
+## Bisection method
 a = -0.7
 b = -0.4
 x_mid = []
@@ -34,6 +36,8 @@ ite_bisec = j+1
 A2 = x_mid
 A3 = np.array([ite_newton, ite_bisec])
 
+
+## Problem 2
 
 A = np.array([[1, 2], [-1, 1]])
 B = np.array([[2, 0], [0, 2]])
