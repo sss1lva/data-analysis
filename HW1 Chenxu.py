@@ -16,6 +16,7 @@ for j in range(1000):
 A1 = x
 
 
+
 a = -0.7
 b = -0.4
 x_mid = []
